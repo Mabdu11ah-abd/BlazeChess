@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorChessApp", "BlazorChessApp\BlazorChessApp.csproj", "{74CB0661-1DE7-4EA5-90D1-E67ED2661C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessApp.commonModels", "ChessApp.commonModels\ChessApp.commonModels.csproj", "{977E6303-E127-44B5-AB10-A2B9BC9E5F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chessApp.server", "chessApp.server\chessApp.server.csproj", "{27032429-A98C-4E42-B3D0-9ED385A7924C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74CB0661-1DE7-4EA5-90D1-E67ED2661C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CB0661-1DE7-4EA5-90D1-E67ED2661C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CB0661-1DE7-4EA5-90D1-E67ED2661C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CB0661-1DE7-4EA5-90D1-E67ED2661C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977E6303-E127-44B5-AB10-A2B9BC9E5F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977E6303-E127-44B5-AB10-A2B9BC9E5F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977E6303-E127-44B5-AB10-A2B9BC9E5F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977E6303-E127-44B5-AB10-A2B9BC9E5F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27032429-A98C-4E42-B3D0-9ED385A7924C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27032429-A98C-4E42-B3D0-9ED385A7924C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27032429-A98C-4E42-B3D0-9ED385A7924C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27032429-A98C-4E42-B3D0-9ED385A7924C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
