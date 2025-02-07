@@ -3,6 +3,7 @@ using chessApp.server.Configurations;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
+
 namespace chessApp.server.services
 {
 
@@ -20,6 +21,7 @@ namespace chessApp.server.services
         public IMongoCollection<UserModel> Users => _database.GetCollection<UserModel>("Users");
         public IMongoCollection<Game> Games => _database.GetCollection<Game>("Games");
         public IMongoCollection<MatchmakingQueue> Matchmaking => _database.GetCollection<MatchmakingQueue>("Matchmaking");
+        public IMongoCollection<RefreshTokenModel> RefreshToken => _database.GetCollection<RefreshTokenModel>("RefreshToken");
     }
 
 }

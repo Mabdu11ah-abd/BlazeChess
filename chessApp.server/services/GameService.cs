@@ -14,17 +14,13 @@ namespace ChessApp.Services
         {
             _games = database.Games;
         }
-
         public async Task<List<Game>> GetAllGamesAsync() => await _games.Find(_ => true).ToListAsync();
-
         public async Task<Game> GetGameByIdAsync(string id) => await _games.Find(g => g.Id == id).FirstOrDefaultAsync();
-
         public async Task<Game> CreateGameAsync(Game game)
         {
             await _games.InsertOneAsync(game);
             return game;
         }
-
         public async Task<bool> UpdateGameAsync(string id, Game updatedGame)
         {
             var result = await _games.ReplaceOneAsync(g => g.Id == id, updatedGame);
